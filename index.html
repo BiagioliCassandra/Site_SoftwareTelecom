@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Site</title>
-  <meta name="description" content="Site">
+  <title>Site client</title>
+  <meta name="description" content="Site client">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
@@ -21,10 +21,11 @@
       Start header
 ~~~~~~~~~~~~~~~~~~~~~~-->
   <header>
-    <h1></h1>
-    <h2>ACCUEIL</h2>
-    <a>Recherche</a>
-    <a>Poubelle</a>
+    <h1>Nom de l'entreprise</h1>
+    <img src="">
+      <h2>ACCUEIL</h2>
+        <a id="recherche" href="">Recherche</a>
+        <a id ="poubelle" href="">Poubelle</a>
   </header>
 <!--~~~~~~~~~~~~~~~~~~~~~
       End header
@@ -34,25 +35,42 @@
 ~~~~~~~~~~~~~~~~~~~~~~-->
   <main>
     <section>
-      <h3>Notice d'informations</h3>
-      <p>Aujourd'hui le soleil brillera dans 98% de notre beau pays, les conditions de travail sont donc optimales</p>
+      <h3 id="titre_information">Notice d'informations</h3>
+        <p class="p_information">Aujourd'hui le soleil brillera dans 98% de notre beau pays, les conditions de travail sont donc optimales</p>
+        <p class="p_information">Pensez à déposer vos horaires de la semaine auprès du secrétariat avant le 21! Bonne semaine à tous!</p>
     </section>
 
-    <div>
+    <div id="projet">
+      <a href="" alt="Le formulaire de création de projet">Créer un nouveau projet</a>
       <div id="projet_1">
-        <h4>Projet 1</h4>
+        <h4><a href="index2.html" alt="La page des projets">Projet 1</a></h4> 
+          <p>Dates</p>
+          <a href="" alt="Confirmation de la suppression du projet">Supprimer ce projet</a>
+          <a href="" alt="Déclaration du projet fini">Déclarer ce projet comme terminé</a>
       </div>
       <div id="projet_2">
-        <h4>Projet 2</h4>
+        <h4><a href="index2.html" alt="La page des projets">Projet 2</a></h4>
+          <p>Dates</p>
+          <a href="" alt="Confirmation de la suppression du projet">Supprimer ce projet</a>
+          <a href="" alt="Déclaration du projet fini">Déclarer ce projet comme terminé</a>
       </div>
       <div id="projet_3">
-        <h4>Projet 3</h4>
+        <h4><a href="index2.html" alt="La page des projets">Projet 3</a></h4> 
+          <p>Dates</p>
+          <a href="" alt="Confirmation de la suppression du projet">Supprimer ce projet</a>
+          <a href="" alt="Déclaration du projet fini">Déclarer ce projet comme terminé</a>
       </div>
       <div id="projet_4">
-        <h4>Projet 4</h4>
+        <h4><a href="index2.html" alt="La page des projets">Projet 4</a></h4> 
+          <p>Dates</p>
+          <a href="" alt="Confirmation de la suppression du projet">Supprimer ce projet</a>
+          <a href="" alt="Déclaration du projet fini">Déclarer ce projet comme terminé</a>
       </div>
       <div id="projet_5">
-        <h4>Projet 5</h4>
+        <h4><a href="index2.html" alt="La page des projets">Projet 5</a></h4> 
+          <p>Dates</p>
+          <a href="" alt="Confirmation de la suppression du projet">Supprimer ce projet</a>
+          <a href="" alt="Déclaration du projet fini">Déclarer ce projet comme terminé</a>
       </div>
     </div>
   </main>
@@ -64,13 +82,13 @@
 ~~~~~~~~~~~~~~~~~~~~~~-->
 
   <footer>
-    <section>
+    <section id="contact">
       <h3>Contact</h3>
-      <p></p>
+      <p>M. Moreau<br>7 rue de la construction<br>10000 BATIMENTS<br>07.01.02.03.04</p>
     </section>
-    <section>
-      <a>Espace connexion</a>
-      <a>PROJETS</a>
+    <section id="liens">
+      <a href="">Espace connexion</a>
+      <a href="index2.html">PROJETS</a>
     </section>
   </footer>
 

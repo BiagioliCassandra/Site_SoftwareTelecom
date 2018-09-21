@@ -10,6 +10,8 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://icons8.com">
+
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -22,10 +24,15 @@
 ~~~~~~~~~~~~~~~~~~~~~~-->
   <header>
     <h1>Nom de l'entreprise</h1>
-    <img src="" alt="Le logo de l'entreprise" height="50">
+    <!--Add logo entreprise-->
+    <img id="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI4SURBVGhD7ZkxTt1AEIatSBQoDR0UFCkoQ0+BBEIQ0dBQRTQgUXECoE6R1OEMVHADpHThFEnBARDUSQH/t95Bq5EFfl6Dn8V+0i88euPZnZ0ZPz1TFQqFwkvMSrvSQrDyIAaxiPlmLEtn0r30X/onXUpfpA9SW/DlHu4lBrGISWzWeBU4qQPpWnqQfkv70kdpS7qQ2Mxf6VR6rkp8hg++3MO9xCAWMYnNGqzFmr1UKT39O+mn9FlqYl46kf5Ivkr+9PHBl3uaYA3WYs2sKnGTnT5/Oam2J8OmfZX86bdtQdZk7XQvEyW0J91Kub1qVXru9NvCXtgTe2sNzjf15RNXUYfBqvsc+zxYdTuYT9p+M1FGkx8xsIkJXyXzSWFP2YlQWvQ9WPXi2Oa3KpkP18a3KKPJjxjYdihU0HxSBk3EV2S0ifC0QsbgiXTFJ5LDoIn41sqhl0SOo9aCVVU7EvZRsKpqUTIfrg0/7E1+xMAmJqxI5pPSSyLWs2XYIyUR0Usim1FLwaq/lbFtM3OS+XBt+NZq8iMGtn3Tf5LMJ6WXRLrihz2HUpEU69ky7JHRJuJba/BEfkRtB6v+zYDNokBfmw/Xhh/2Jj9iYBMT1iXzSeklka74iuQwaCJ+RnLoJRHr2TLskdEm4od98ETsrcbo36J0ZeqGvStTl4iVurygiww+7Bb43T5+/YwMnkhXpm7Yu+JbK4dOifDfIntJlqNfUU2fTSr2NFEiG5I9/qZN7K1QKBRGTVU9Aqio1l+LuweaAAAAAElFTkSuQmCC" alt="Le logo de l'entreprise" width="50">
       <h2>ACCUEIL</h2>
-        <a id="recherche" href="">Recherche</a>
-        <a id ="poubelle" href="">Poubelle</a>
+        <!--2 links: Recherche and Poubelle-->
+        <div id="link_header">
+          <a id="recherche" href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJqSURBVGhD7dnNbw1RHMbxS0O8BInXirfYY+UvKGFJomVBwoKlWIgVEpZe/gAWUiQ2hL2wsdOuhJV3umwIERbefR91kmbyM+fM3N+9OeI8ySdt7zl3cp/OzJnptFNSUtI483ER7/AzM4+xC0m5AGsjufiGzajNDOS4J6rOozaLYL0xN9dQm1Kkz0qR3PStyGe8rbzmqadF7mA/ViJkFjbhBF7Del8bPSnyEkOYnrlYgYHfP01Fr6mQLmjWdppwLzKO5VD09QxeIIzrQ9/DAcyEsh2fMH07TbkWeYVlUHbiA6x5wRhWQRnGD1jzUrgWCYfTDnyHNafqKUL5y7DmpHArcheKDqfYnqi6DmUNvsCaE+NWRKuTcg7WeB0dUhuh6BdizYlxKxKW2OewxmNOQzkGazzGpYgudoqWU2s8xU0ou2GNx7gUeQNlENZ4inCOaSm2xmNciugY1xVbF7u2F7erUPbCGo9xO0fCyaqLnTUecxDKWVjjMW5FTkLR6mWN13mPJVAewZoT41ZkAnOgw+v+n9dSHYayBdZ4CrcichzKajyDNafqEpTZeAhrTgrXIjrRt0FZihv42/2TnswcQch6TMKam8K1iHzECEK0CJzCLdzGFRzCYijaE+umvu1sQNsy7kVEe2EUa1GXrXgAfXiVUNqW6UmR4Cv0V6JuO/ZAF7t90BJbPR+6LdPTIk11UyarItK2THZFpE2ZLItI0zLZFpFQ5p8vIioQKyHZF0lViuTm/ykyD908AewX3YxG8wTWm3Oi+7lo9H9s3QBaG8iBHrsuQFL0f2w9RdTjzVzovDiKhSgpKWmUTucXzLQ84Gsp1QAAAAAASUVORK5CYII=" alt="Un logo de recherche google" width="30"></a>
+          <a id="poubelle" href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGsSURBVGhD7dq/K0VxGMfxm19FoSQpm4lB2FHKRBJlMtiUxWJAFpuN7Fb/gQmLVVlMFoVsiuRHIT/eT91vPenp3HM7v255PvVa7nPP934/0b3nnnNLKWUGJ3jBTwyfOMcKGlAT2YK12biO0IhCM4pvWBusxhoKzT70hr5wh6sI13iHPu4SheYCekNjiJMOPEAf245M0oZJzEe4h97MAqznWeSvo49dhvU8MYseVJ1W/H2hor1iGLHSjSXswFqsaIeQ/Q0hMiOwFqg164iMF8lZxSKdsN41ak0f/memcVwDNpAo8iFl/Y/m7QCJ4kVS5kVCKhV5gpzFisfyY8EHwky8Qc+foefyFUDPtcyLDCBETsP1TM6LdORDTM+noHMDPde8SIgXgRcxeJEQLwIvYvAiIV4EXsTgRUK8CLyIwYuEeBF4EYMXCalUZBXhCvli+bFAfhCgr6DLZvR8G3r+936klnmRvHiRkDlYC+dtF4kid7Dk0qe1eJ7kfn/i7MFaPC9nqEPiNOMU1otk7Ra9SC1N2ETUW2Sa5Mq9/GCnC5mkHv0Yx0RGBtGCKlIq/QI+C+St9GvhtAAAAABJRU5ErkJggg==" alt="Une image de poubelle" width="30"></a>
+        </div>
+        
   </header>
 <!--~~~~~~~~~~~~~~~~~~~~~
       End header
@@ -34,49 +41,56 @@
       Start main
 ~~~~~~~~~~~~~~~~~~~~~~-->
   <main>
+    <!--Creates the section information and puts 2 informations-->
     <section>
       <h3 id="titre_information">Notice d'informations</h3>
         <p class="p_information">Aujourd'hui le soleil brillera dans 98% de notre beau pays, les conditions de travail sont donc optimales</p>
         <p class="p_information">Pensez à déposer vos horaires de la semaine auprès du secrétariat avant le 21! Bonne semaine à tous!</p>
     </section>
 
-    <div id="projet_red">
-      <a href="">Créer un nouveau projet</a>
-      <article id="projet_1">
-        <h4><a href="index2.html">Projet 1</a></h4> 
-          <p>Dates</p>
-          <a href="">Supprimer ce projet</a>
-          <a href="">Déclarer ce projet comme terminé</a>
-      </article>
-      <article id="projet_2">
-        <h4><a href="index2.html">Projet 2</a></h4>
-          <p>Dates</p>
-          <a href="">Supprimer ce projet</a>
-          <a href="">Déclarer ce projet comme terminé</a>
-      </article>
-    </div>
-    <div id="projet_orange">
-      <article id="projet_3">
-        <h4><a href="index2.html">Projet 3</a></h4> 
-          <p>Dates</p>
-          <a href="">Supprimer ce projet</a>
-          <a href="">Déclarer ce projet comme terminé</a>
-      </article>
-      <article id="projet_4">
-        <h4><a href="index2.html">Projet 4</a></h4> 
-          <p>Dates</p>
-          <a href="">Supprimer ce projet</a>
-          <a href="">Déclarer ce projet comme terminé</a>
-      </article>
-    </div>
-    <div id="projet_green">
-      <article id="projet_5">
-        <h4><a href="index2.html">Projet 5</a></h4> 
-          <p>Dates</p>
-          <a href="">Supprimer ce projet</a>
-          <a href="">Déclarer ce projet comme terminé</a>
-      </article>
-    </div>
+    <!--Creates section containing the projects -->
+    <section>
+      <h3><a href="">Créer un nouveau projet</a></h3>
+      <!--Create div for urgent projet and put 2 projects in each article-->
+      <div id="projet_red">
+        <article id="projet_1">
+          <h4><a href="index2.html">Projet 1</a></h4> 
+            <p>Dates</p>
+            <a href="">Supprimer ce projet</a>
+            <a href="">Déclarer ce projet comme terminé</a>
+        </article>
+        <article id="projet_2">
+          <h4><a href="index2.html">Projet 2</a></h4>
+            <p>Dates</p>
+            <a href="">Supprimer ce projet</a>
+            <a href="">Déclarer ce projet comme terminé</a>
+        </article>
+      </div>
+      <!--Create div for medium projet and put 2 projects in each article-->
+      <div id="projet_orange">
+        <article id="projet_3">
+          <h4><a href="index2.html">Projet 3</a></h4> 
+            <p>Dates</p>
+            <a href="">Supprimer ce projet</a>
+            <a href="">Déclarer ce projet comme terminé</a>
+        </article>
+        <article id="projet_4">
+          <h4><a href="index2.html">Projet 4</a></h4> 
+            <p>Dates</p>
+            <a href="">Supprimer ce projet</a>
+            <a href="">Déclarer ce projet comme terminé</a>
+        </article>
+      </div>
+      <!--Create div for low projet and put 1 project in the article-->
+      <div id="projet_green">
+        <article id="projet_5">
+          <h4><a href="index2.html">Projet 5</a></h4> 
+            <p>Dates</p>
+            <a href="">Supprimer ce projet</a>
+            <a href="">Déclarer ce projet comme terminé</a>
+        </article>
+      </div>
+    </section>
   </main>
 <!--~~~~~~~~~~~~~~~~~~~~~
       End main
@@ -85,6 +99,7 @@
       Start footer
 ~~~~~~~~~~~~~~~~~~~~~~-->
 
+  <!--Creates section contact and links for connexion and another page: projets-->
   <footer>
     <section id="contact">
       <h3>Contact</h3>
@@ -101,8 +116,6 @@
 ~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>

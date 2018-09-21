@@ -128,11 +128,31 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
-#titre_information {
-    text-align: left;
+#note_information {
+    border: 1px black solid;
+    text-align: center;
 }
-
-
+#projets {
+    text-align: center;
+}
+#projet_red {
+    border: 1px red border;
+    background-color: rgb(236, 72, 72); 
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+}
+#projet_orange {
+    border: 1px orangered solid;
+    background-color: rgb(235, 171, 52);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#projet_green {
+    border: 1px green solid;
+    background-color: rgb(53, 233, 53);
+}
 
 
 

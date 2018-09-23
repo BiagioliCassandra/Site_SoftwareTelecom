@@ -108,10 +108,7 @@ header {
 main {
     background-color: #cbd6cf;
 }
-footer {
-    background-color: #9cbca8;
-    margin-bottom: 0;
-}
+/*Center the title and supp margin-top*/
 h1 {
     text-align: center;
     margin-top: 0;
@@ -119,39 +116,78 @@ h1 {
 h2 {
     text-align: center;
 }
+/*Center the logo*/
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/*Puts in the extremes trash and search*/
 #link_header {
     display: flex;
     justify-content: space-between;
 }
+/*Puts border and center title. Puts black band for aesthetics*/
 #note_information {
     border: 1px black solid;
+    margin-top: 20px;
     text-align: center;
 }
+/*Red, orange and green are center and margin*/
 #projets {
     text-align: center;
+    width: 70%;
+    margin-left: 15%;   
+    margin-right: 15%;
 }
+/*Change the color in the button "nom projet"*/
+.nom_projet {
+    background-color: black;
+    color: white;
+}
+/*Puts the element in place and create a border with color*/
 #projet_red {
-    border: 1px red border;
-    background-color: rgb(236, 72, 72); 
+    border: 1px red solid;
+    background-color: rgb(235, 116, 116); 
     margin-bottom: 20px; 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 #projet_orange {
     border: 1px orangered solid;
     background-color: rgb(235, 171, 52);
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #projet_green {
     border: 1px green solid;
-    background-color: rgb(53, 233, 53);
+    background-color: rgb(80, 228, 80);
+    display: flex;
+    justify-content: center;
+}
+/*Puts the border to each project*/
+.projet {
+    border: 2px black solid;
+    box-shadow: 6px 6px 0px black;
+}
+/*Rules in the footer*/
+footer {
+    background-color: #9cbca8;
+    display: flex;  
+    text-align: center;
+}
+#contact {
+    width: 50%;
+    border: 1px black solid;
+}
+/*Puts the links in the middle and separate*/
+#liens {
+    width: 50%;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
